@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListLinkPage snapshot Header component Snapshot 1`] = `
+<div
+  className="sc-bdVaJa heZbqI"
+  id="Amazon"
+>
+  <button
+    className="btn btn-outline-secondary btn-large"
+    disabled={false}
+    type="button"
+  >
+    <p
+      className="points"
+    >
+      9999
+    </p>
+    <p
+      className="pointsText"
+    >
+      POINTS
+    </p>
+  </button>
+  <div
+    className="sc-bwzfXH esojNt"
+  >
+    <div
+      className="sc-htpNat WoJPU"
+    >
+      <p
+        id="linkName"
+      >
+        Amazon
+      </p>
+      <small
+        id="linkURL"
+      >
+        (
+        http://www.amazon.com
+        )
+      </small>
+    </div>
+    <div
+      className="sc-bxivhb kALBOD"
+    >
+      <div
+        id="upVote"
+        onClick={[Function]}
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"
+          />
+        </svg>
+        <p>
+          Up Vote
+        </p>
+      </div>
+      <div
+        id="downVote"
+        onClick={[Function]}
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"
+          />
+        </svg>
+        <p>
+          Down Vote
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="removeItem"
+    onClick={[Function]}
+  >
+    <svg
+      className="removeItemIcon"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"
+      />
+    </svg>
+  </div>
+</div>
+`;

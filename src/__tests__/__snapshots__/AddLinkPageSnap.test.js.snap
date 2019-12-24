@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components in AddLinkPage test Header component Snapshot 1`] = `
+<div
+  className="sc-dnqmqq ksutkd"
+>
+  <div
+    className="sc-htoDjs hKfUjC"
+  >
+    <div
+      aria-atomic="true"
+      aria-live="assertive"
+      className="fade toast toast"
+      role="alert"
+    >
+      <div
+        className="toast-body"
+      >
+        <h2>
+          <strong>
+            
+          </strong>
+           added.
+        </h2>
+      </div>
+    </div>
+  </div>
+  <div
+    className="returnHome row"
+    id="returnHome"
+  >
+    <svg
+      className="icon"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 448 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"
+      />
+    </svg>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Return to List
+    </a>
+  </div>
+  <div
+    className="mt-0 row"
+  >
+    <h2
+      className="title"
+    >
+      Add New Link
+    </h2>
+  </div>
+  <div
+    className="mt-0 row"
+  >
+    <form
+      className="addLinkForm"
+      noValidate={true}
+      onSubmit={[Function]}
+    >
+      <label
+        className="inputLabel form-label"
+      >
+        Link Name:
+      </label>
+      <div
+        className="form-row"
+      >
+        <div
+          className="inputText form-group"
+          md="4"
+        >
+          <input
+            className="form-control"
+            id="linkName"
+            onChange={[Function]}
+            placeholder="e.g. Alphabet"
+            required={true}
+            type="text"
+          />
+        </div>
+      </div>
+      <label
+        className="inputLabel form-label"
+      >
+        Link URL:
+      </label>
+      <div
+        className="form-row"
+      >
+        <div
+          className="inputText form-group"
+          md="4"
+        >
+          <input
+            className="form-control"
+            id="linkURL"
+            onChange={[Function]}
+            placeholder="e.g. http://abc.xyz"
+            required={true}
+            type="url"
+          />
+        </div>
+      </div>
+      <div
+        className="d-flex justify-content-end form-row"
+      >
+        <button
+          className="btn btn-secondary submitButton btn btn-primary"
+          disabled={false}
+          id="submitButton"
+          type="submit"
+        >
+          ADD
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;
